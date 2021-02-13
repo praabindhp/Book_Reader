@@ -1,12 +1,12 @@
 import pyttsx3 # pip install pyttsx3
 import PyPDF2 # pip install PyPDF2
 book = open('oop.pdf', 'rb') # Specify Name & Path
-pdfReader = PyPDF2.PdfFileReader(book)
-pages = pdfReader.numPages
+pdfReader = PyPDF2.PdfFileReader(book) # Importing My PDF
+pages = pdfReader.numPages # Counting Number Of Pages
 
-speaker = pyttsx3.init()
-for num in range(7, pages):
-    page = pdfReader.getPage(num)
+speaker = pyttsx3.init() # Speaking Out
+for num in range(7, pages): # Loop After Index Page To Last Page
+    page = pdfReader.getPage(num) # Getting Page Number
     text = page.extractText()
     speaker.say(text)
     speaker.runAndWait()
