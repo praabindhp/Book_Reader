@@ -3,7 +3,7 @@ Python Program For Book Reader - PDF Format
 
 This Is A Python Program For Engaging To Book via Audio
 
-Wherein The File Format Would Always Be
+Wherein The File Format Would Always Be PDF
 
 Requirements : 
 
