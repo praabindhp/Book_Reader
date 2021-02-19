@@ -10,3 +10,5 @@ Requirements :
     pip install pyttsx3
     
     pip install PyPDF2
+
+You Need To Install The Requirements Using The Above-Mentioned Commands
