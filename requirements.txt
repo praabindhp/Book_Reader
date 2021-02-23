@@ -1,2 +1,2 @@
- pyttsx3
- PyPDF2
+pyttsx3
+PyPDF2
